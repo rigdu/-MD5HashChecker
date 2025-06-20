@@ -1,0 +1,13 @@
+cf4c14112826a8ae094696f1e82ddad9  rootfs
+
+5c7dc2a80dd9d93bc30087652e204e56  uImage
+
+196170e346bfd5244eead6fbb5dd2a53  fwu_ver
+
+899b03fc2f59bea3e5577a9bf337c70b  hw_ver
+
+59f040cf1c970dd93ef15bb33f262225  encode_uboot.img
+
+227133cff319a1a06a70e9d7982ec002  nandwrite
+
+da9c02fe777c2e57320bb3afb4d15504  fwu.sh
