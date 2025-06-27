@@ -62,6 +62,19 @@ class MD5CheckerApp:
         self.root = root
         self.root.title("MD5 Hash Checker")
 
+        # Set window icon
+        try:
+            # True means it's the default icon
+            img = tk.PhotoImage(file='icon.png')
+            self.root.iconphoto(True, img)
+        except tk.TclError:
+            # Handle error if icon file is missing or not in PNG format
+            # You could log this, show a warning, or just skip setting the icon
+            print("Warning: Could not load icon.png. Ensure it's a valid PNG file in the script's directory.")
+        except Exception as e:
+            print(f"An unexpected error occurred while setting the icon: {e}")
+
+
         # Frame for the main button
         self.frame = tk.Frame(self.root)
         self.frame.pack(padx=10, pady=10)
